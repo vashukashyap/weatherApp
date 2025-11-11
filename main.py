@@ -208,7 +208,7 @@ def getWeather(_=None):
 
 #Making Tkinter Window
 root = tk.Tk()
-root.title("Weather App")
+root.title("Wheather App")
 root.geometry("890x470+200+200")
 root.configure(bg='#57adff')
 root.resizable(False,False)
@@ -380,5 +380,6 @@ dayseven_image = tk.Label(dayseven_cell,bg='#2c455c')
 dayseven_image.grid(row = 1, column = 0,sticky='N')
 dayseventemp_label = tk.Label(dayseven_cell,font='arial 9 bold',bg='#2c455c',fg='white')
 dayseventemp_label.grid(row = 2, column = 0)
+
 
 root.mainloop()

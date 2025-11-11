@@ -208,7 +208,7 @@ def getWeather(_=None):
 
 #Making Tkinter Window
 root = tk.Tk()
-root.title("Wheather App")
+root.title("Weather App")
 root.geometry("890x470+200+200")
 root.configure(bg='#57adff')
 root.resizable(False,False)
